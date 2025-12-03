@@ -15,7 +15,7 @@ This repository contains the setup for building, tagging, and deploying a PHP 8.
 
 ## 1. GitLab CI/CD Pipeline
 
-Create a `.gitlab-ci.yml` file in the root of your repo:
+Create a `.gitlab-ci.yml` file in the root of your repository:
 
 ```yaml
 stages:
