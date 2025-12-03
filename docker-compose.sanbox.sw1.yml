@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  sw1-app:
+    image: $REGISTRY/sw1-app:${APP_TAG}
+    container_name: sw1-app
+    ports:
+      - "8095:80"
+    volumes:
+      - /var/www/html:/var/www/html
+    restart: always
