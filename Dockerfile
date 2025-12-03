@@ -1,3 +1,4 @@
+```dockerfile
 FROM $REPOSITORY:5000/php:8.2-apache
 
 # Install PHP extensions
